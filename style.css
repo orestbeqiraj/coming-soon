@@ -48,3 +48,45 @@ p {
 a{
     color: #fff;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    #countdown {
+        font-size: 20px;
+    }
+}
+
+/* Media query për ekranet më të vogla (telefonët e vegjël) */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    #countdown {
+        font-size: 18px;
+    }
+}
